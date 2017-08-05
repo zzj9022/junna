@@ -1,0 +1,642 @@
+button{
+    outline: none;
+}
+.financial .member-title span,.settle_accounts .member-title span {
+    width: 80px;
+}
+
+.financial .total_table {
+    height: 140px;
+    border: 1px solid #ccc;
+    margin: 10px 0 15px 0;
+    text-align: center;
+}
+
+.financial .total_table p {
+    text-align: left;
+}
+
+.financial .total_table div {
+    float: left;
+    width: 210px;
+    margin: 45px 45px 0 25px;
+}
+
+.financial .total_table div p:first-child {
+    font-size: 14px;
+}
+
+.financial .total_table div p:last-child {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.financial .total_table .special {
+    margin-right: 0;
+}
+
+.financial .total_table div:last-child {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 45px 20px 0 0;
+    float: right;
+    cursor: pointer;
+    color: #fff;
+}
+
+.financial .total_table .before {
+    background: #0a70b2;
+}
+
+.financial .total_table .after {
+    background: #ddd;
+}
+
+.color_yellow {
+    color: #ff9000;
+}
+.color_green {
+    color: #009944;
+}
+.color_gray {
+    color: #cccccc;
+}
+.color_blue{
+    color: #0a70b2;
+}
+.font_18{
+    font-size: 18px;
+}
+
+.financial .select_table {
+    height: 35px;
+    background: #eeeeee;
+    color: #666;
+    position: relative;
+}
+
+.financial .select_table p:first-child {
+    float: left;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 20px;
+}
+
+.financial .select_table div {
+    float: right;
+    height: 35px;
+    padding-right: 15px;
+    line-height: 35px;
+    padding-left: 20px;
+    background: url("../../img/public/header-botter-code.png") right 50% no-repeat;
+    background-size: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.financial .select_table ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 0 10px 5px 0;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.financial .select_table ul li:first-child {
+    color: #333333;
+    background: url("../../img/public/header-botter-code.png") right 50% no-repeat;
+    background-size: 12px;
+}
+
+.financial .select_table ul li:first-child span:hover {
+    color: #333333;
+}
+
+.financial .select_table ul li {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px 0 20px;
+}
+
+.financial .select_table ul li span:hover {
+    color: #0a70b2;
+}
+
+.financial .select_table ul li span {
+    cursor: pointer;
+}
+
+.financial .select_table ul li:first-child span {
+    cursor: default;
+}
+
+.financial .img_table {
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    position: relative;
+}
+.financial .img_table:before {
+    content: ' ';
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    left: 90%;
+    top: -22px;
+    position: absolute;
+    border-width: 11px;
+    border-bottom-color: #ccc;
+}
+.financial .img_table:after {
+    content: ' ';
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    left: 90%;
+    top: -21px;
+    position: absolute;
+    border-width: 11px;
+    border-bottom-color: #fff;
+}
+.img_table .clearfix{
+    margin-top: 30px;
+}
+.img_table span {
+    margin: 0 109px;
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+.img_table .img-describe span{
+    width: 200px;
+    margin: 15px 59px;
+}
+.step-dashed {
+    width: 725px;
+    margin: -50px auto 125px;
+    border-top: 2px dashed #cccccc;
+}
+.icon-lg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-image: url(../../img/shop/shop-icons.png);
+}
+.icon-getoffer {
+    background-position: -100px 0;
+}
+.icon-sureoffer {
+    background-position: -200px 0;
+}
+.financial table {
+    margin: 10px 0 50px 0;
+    width: 960px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.financial table tr:first-child {
+    background-color: #f1f1f1;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: #333333;
+    border: 0;
+}
+
+.financial table tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+.financial table tr {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px dashed #cecece;
+}
+
+.mange-withdrawals .withdrawals_content {
+    margin: 20px 0 20px 100px;
+}
+
+.mange-withdrawals .withdrawals_content p {
+    line-height: 40px;
+}
+
+.mange-withdrawals .withdrawals_content p label {
+    color: #333;
+    margin-right: 10px;
+    text-align: right;
+    display: inline-block;
+    width: 60px;
+}
+
+.mange-withdrawals .withdrawals_content p:first-child span:last-child {
+    color: #999;
+    margin-left: 10px;
+}
+
+.mange-withdrawals .withdrawals_content p i {
+    color: #ff9000;
+    margin-right: 5px;
+    margin-left: -12px;
+}
+
+.mange-withdrawals .withdrawals_content + div {
+    width: 380px;
+    margin-left: 92px;
+    margin-bottom: 20px;
+    border-top: 1px dashed #ccc;
+    line-height: 40px;
+}
+
+.mange-withdrawals .withdrawals_content + div label {
+    color: #333;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.mange-withdrawals .withdrawals_content + div span:last-child {
+    margin-left: 25px;
+    color: #0a70b1;
+    cursor: pointer;
+}
+
+.mange-withdrawals .withdrawals_content input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-indent: 5px;
+}
+
+.mange-withdrawals .ok {
+    width: 140px;
+    height: 40px;
+    background: #0a70b1;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 175px;
+}
+
+.mange-withdrawals .ok + button {
+    background: #ddd;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: #666;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.order-form {
+    margin: 20px 0;
+}
+.order-form label {
+    margin-left: 30px;
+}
+.settle_accounts .order-form-time input {
+    text-indent: 5px;
+    background: url(../../img/businessCenter/date.png) 74px no-repeat;
+    background-size: 20px;
+    width: 100px;
+    height: 28px;
+    border: 1px solid #cccccc;
+}
+.order-form select {
+    width: 140px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #cccccc;
+    text-indent: 5px;
+}
+.order-form .order-form-time span {
+    margin: 0 10px;
+}
+.settle_accounts table,.invoice_application table{
+    width: 960px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 25px;
+}
+.settle_accounts table tr:first-child,.invoice_application table tr:first-child{
+    background-color: #f1f1f1;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: #333333;
+}
+.settle_accounts table tr:nth-child(odd),.invoice_application table tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+.settle_accounts table tr,.invoice_application table tr {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px dashed #cecece;
+}
+.settle_accounts table tr:first-child,
+.settle_accounts table tr:last-child,
+.invoice_application table tr:first-child,
+.invoice_application table tr:last-child,{
+    border-bottom: none;
+}
+.settle_accounts table tr:last-child,.invoice_application table tr:last-child{
+    height: 35px;
+    line-height: 35px;
+    background: #eeeeee;
+    border-top: 1px solid #ccc;
+}
+.settle_accounts_con table td a {
+    color: #0a70b1;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.settle_accounts_con table td:first-child {
+    text-align: left;
+}
+.settle_accounts_con table td:first-child input {
+    margin: 0 10px 0 15px;
+    position: relative;
+    top: 2px;
+}
+
+.settle_accounts_con table+div{
+    margin-bottom: 40px;
+}
+.settle_accounts_con table+div button {
+    margin-top: 15px;
+}
+.settle_accounts_con table+div input {
+    margin: 0 10px 0 15px;
+    position: relative;
+    top: 2px;
+}
+.settle_accounts_con table+div button{
+    border: 0;
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #0a70b1;
+    color: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.settle_accounts .order_details_con table{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.settlement_details{
+    height: 140px;
+    border: 1px solid #ccc;
+    margin: 10px 0 10px 0;
+}
+.settlement_details p{
+    margin:0 0 0 25px ;
+    line-height: 40px;
+    font-size: 14px;
+    color: #777;
+    overflow: hidden;
+}
+.settlement_details p:first-child{
+    margin-top: 10px;
+}
+.settlement_details p span{
+    float: left;
+    width: 280px;
+}
+.settlement_details p span:first-child+span{
+    width: 300px;
+}
+.settlement_details p span:first-child{
+    width: 350px;
+}
+.settlement_details p span label{
+    font-size: 18px;
+}
+
+/*��Ʊ����*/
+.invoice_application{
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.invoice_application .show-list {
+    width: 800px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.invoice_application .show-list .complete {
+    background: #b2d6f3;
+}
+.invoice_application .show-list li {
+    float: left;
+    width: 200px;
+    height: 5px;
+    background: #ccc;
+    text-align: center;
+    position: relative;
+}
+.invoice_application .show-list .select {
+    background: #0078d8;
+}
+.invoice_application .show-list .complete dl dt {
+    background: url(../../img/public/complete_radio.jpg) no-repeat;
+}
+.invoice_application .show-list li dl dt {
+    margin: 0 auto;
+    height: 22px;
+    width: 22px;
+    background: url(../../img/public/radio-code.png) 0px 0px no-repeat;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    left: 90px;
+}
+.invoice_application .show-list .complete dl dd {
+    color: #b2d6f3;
+}
+.invoice_application .show-list li dl dd {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 20px;
+}
+.invoice_application .show-list .select dl dt {
+    background: url(../../img/public/radio-code.png) -59px 0px no-repeat;
+}
+.invoice_application .show-list .select dl dd {
+    color: #0078d8;
+}
+.invoice_application .stit{
+    height: 18px;
+    line-height: 18px;
+    border-left: 8px solid #2c7cba;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.invoice_application .stit span:first-child{
+    font-size: 16px;
+    color: #0a70b5;
+}
+.invoice_application .stit span:first-child+span{
+    font-size: 14px;
+    color: #777;
+    margin-left: 30px;
+}
+.invoice_application hr{
+    height:1px;
+    border:none;
+    border-top:1px solid #ccc;
+    margin: 20px 0 20px 0;
+}
+.invoice_application textarea{
+    width: 958px;
+    height: 60px;
+    border: 1px solid #ccc;
+    text-indent: 20px;
+}
+.invoice_application .billing_type div{
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #999;
+    display: inline-block;
+}
+.invoice_application .billing_type div a {
+    color: #999;
+    width: 240px;
+    height: 40px;
+    display: inline-block;
+}
+.invoice_application .billing_type .active{
+    border: 2px #3a94f5 solid;
+    color: #666;
+    background: url(../../img/shoppingProcess/success.png) no-repeat right bottom #fff;
+}
+.invoice_application .billing_type .errortip {
+    width: 958px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #FFEDD3;
+    cursor: default;
+    margin-top: 20px;
+    background: url(../../img/public/icon.jpg) 10px center no-repeat #FFFBF2;
+    background-size: 15px;
+    color: #ff9000;
+    text-align: left;
+    text-indent: 30px;
+}
+.invoice_application .billing_type p{
+    clear: both;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.invoice_application .billing_type p a{
+    color: #3a94f5;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.invoice_application .receiving_address div{
+    width: 258px;
+    height: 180px;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+   display: inline-block;
+    padding:0 20px;
+    position: relative;
+    color: #999;
+}
+.invoice_application .receiving_address .name{
+    border-bottom: 1px solid #ccc;
+    line-height: 45px;
+    font-size: 18px;
+}
+.invoice_application .receiving_address .name span{
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+.invoice_application .receiving_address p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.invoice_application .receiving_address .operation{
+    position: absolute;
+    bottom:0;
+}
+.invoice_application .receiving_address .operation a{
+    color: #999;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.invoice_application .receiving_address .operations{
+    clear: both;
+    margin-top: 20px;
+    color: #3a94f5;
+    font-size: 14px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.invoice_application .receiving_address .active{
+    border: 2px #3a94f5 solid;
+    color: #333;
+    background: url(../../img/shoppingProcess/success.png) no-repeat right bottom #f5faff;
+}
+.invoice_application .button_con{
+    margin: 50px auto 20px auto;
+    display: table;
+}
+.invoice_application .button_con button{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+}
+.invoice_application .button_con .submit{
+    width:140px;
+    background: #0a70b1;
+    color: #fff;
+    margin-right: 20px;
+}
+.invoice_application .button_con .submit a {
+    display: inline-block;
+    width:140px;
+    color: #fff;
+}
+.invoice_application .button_con .back{
+    width:140px;
+    background: #dddddd;
+    color: #666;
+    margin-right: 20px;
+}
+.invoice_application .button_con .submit+button{
+    width:100px;
+    background: #dddddd;
+    color: #666;
+}

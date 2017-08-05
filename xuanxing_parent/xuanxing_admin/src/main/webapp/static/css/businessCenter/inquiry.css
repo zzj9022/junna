@@ -1,0 +1,608 @@
+.inquiry-search {
+    line-height: 34px;
+    margin-top: 10px;
+}
+.inquiry-search-input {
+    width: 230px;
+    height: 28px;
+    text-indent: 5px;
+}
+.inquiry-search-btn {
+    border: 0;
+    width: 110px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #0a70b1;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 25px;
+    cursor: pointer;
+    text-indent: 5px;
+}
+.icon-search {
+    background: url("../../../img/businessCenter/search.png") no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: -7px;
+    margin-right: 5px;
+}
+.inquiry-nav {
+    margin: 10px auto;
+    background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    border-bottom-width: 3px;
+    height: 38px;
+    line-height: 38px;
+}
+.inquiry-nav li {
+    float: left;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    border: 1px solid #cccccc;
+    border-top-width: 0;
+    margin-left: -1px;
+    position: relative;
+}
+.inquiry-nav li.inquiry-selected {
+    border-top: 3px solid #0078d8;
+    background: white;
+    position: relative;
+    top: -1px;
+    height: 39px;
+    line-height: 35px;
+    border-bottom: 0;
+    color: #0078d8;
+}
+.inquiry-content-header {
+    height: 36px;
+    line-height: 36px;
+    background-color: #eeeeee;
+    font-size: 14px;
+    color: #666666;
+    position: relative;
+}
+.inquiry-content-header li, .inquiry-content-row-details li  {
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+.store-inquiry .inquiry-content-header li, .store-inquiry .inquiry-content-row-details li  {
+    width: 134px !important;
+}
+.inquiry-content-header li:first-child {
+    font-size: 12px;
+    margin-left: 20px;
+    text-align: left;
+}
+.inquiry-info {
+    text-align: center;
+}
+.inquiry-content-header .inquiry-purity {
+    width: 100px;
+}
+.font-blue {
+    color: #0a70b1;
+}
+.font-orange {
+    color: #ff9000;
+}
+.inquiry-content-row {
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+}
+.inquiry-content-row-header {
+    height: 34px;
+    line-height: 34px;
+    background-color: #eeeeee;
+    font-size: 12px;
+}
+.inquiry-number {
+    margin: 0 83px 0 15px;
+}
+.inquiry-date {
+    margin-right: 5px;
+    color: #999999;
+}
+.inquiry-content-row-details {
+    height: 74px;
+}
+.inquiry-content-row-details li {
+    display: table;
+    height: 74px;
+}
+.inquiry-content-row-details li>span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inquiry-content-row-details .inquiry-detail-first {
+    width: 190px;
+    margin: 0 46px 0 12px;
+    text-align: left;
+}
+
+.inquiry-detail-info {
+    color: #999999;
+}
+.inquiry-content-row-details .inquiry-purity {
+    width: 97px;
+    margin-left: 10px;
+}
+.inquiry-valid-date {
+    height: 32px;
+    line-height: 32px;
+    color: #999999;
+    font-size: 12px;
+    text-indent: 12px;
+    border-top: 1px solid #eeeeee;
+}
+.inquiry-status-inquiring {
+    color: #ff9000;
+}
+.inquiry-status-finish {
+    color: #a0c100;
+}
+.inquiry-status-out-of-date {
+    color: #999999;
+}
+
+.inquiry-view {
+    color: #0a70b1;
+    cursor: pointer;
+}
+.inquiry-icon-arrow-down {
+    background: url("../../../img/public/header-botter-code.png") no-repeat;
+    display: inline-block;
+    height: 7px;
+    width: 10px;
+    background-size: 10px;
+    cursor: pointer;
+}
+.inquiry-count {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ff9000;
+    color: #ffffff;
+    position: absolute;
+    top: 5px;
+    font-size: 11px;
+}
+
+/*询盘详情*/
+.inquiry-details-container {
+    border: 1px solid #cccccc;
+    margin: 20px 0 10px 0;
+}
+.inquiry-details-container table , .inquiry-details-price table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.inquiry-details-container table td {
+    width: 340px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+}
+.inquiry-details-container table tr + tr {
+    border-top: 1px solid #e5e5e5;
+}
+.inquiry-details-container table td + td {
+    border-left: 1px solid #e5e5e5;
+}
+.inquiry-details-container table .inquiry-details-item {
+    width: 141px;
+    text-align: right;
+    position: relative;
+    right: 10px;
+}
+
+.inquiry-details-header {
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    color: #474747;
+    background-color: #eeeeee;
+    border-bottom: 2px solid #e5e5e5;
+}
+.inquiry-details-header-number {
+    margin: 0 15px 0 10px;
+}
+.inquiry-details-header-status {
+    margin-right: 12px;
+}
+
+.inquiry-details-price {
+    border: 1px solid #cccccc;
+}
+.no-price {
+    height: 90px;
+    line-height: 90px;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+.price-btn {
+    width: 70px;
+    height: 24px;
+    background-color: #0a70b2;
+    color: #ffffff;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.price-btn.btn-user-blue {
+    margin-left: 0;
+    background-color: #0078d8;
+    margin-bottom: 6px;
+}
+.price-btn.btn-business-blue {
+    margin-left: 0;
+    background-color: #0a70b1;
+    margin-bottom: 6px;
+}
+.price-btn.btn-orange {
+    margin-left: 0;
+    background-color: #ff9000;
+    margin-bottom: 6px;
+}
+
+.inquiry-details-price-content-header {
+    height: 42px;
+    line-height: 42px;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    color: #474747;
+}
+.inquiry-details-price-content table{
+    width: 958px;
+}
+.inquiry-details-price-content table th {
+    color: #474747;
+    font-size: 14px;
+    border-bottom: 2px solid #e5e5e5;
+}
+.inquiry-details-price-content table td {
+    height: 60px;
+    text-align: center;
+}
+.price-actions span {
+    color: #0a70b1;
+    cursor: pointer;
+}
+
+/*会员中心*/
+.publish-inquiry {
+    height: 22px;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #0078d8;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+/*询盘报价 弹出框*/
+#inquiry-price-js h4 {
+    font-weight: 700;
+    text-align: center;
+}
+#inquiry-price-js dt {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 7px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+#inquiry-price-js h4, #inquiry-price-js dt{
+    font-size: 14px;
+    color: #333333;
+}
+#inquiry-price-js dd {
+    font-size: 12px;
+    color: #666666;
+}
+#inquiry-price-js dd+dd {
+    margin-top: 12px;
+}
+#inquiry-price-js dd span{
+    width: 250px;
+    display: inline-block;
+}
+
+/*询盘报价*/
+.inquiry-price-container {
+    width: 800px;
+    margin: 0 auto;
+}
+.inquiry-price-title {
+    height: 58px;
+    line-height: 58px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+
+    font-weight: 700;
+}
+.inquiry-price-line {
+    border-bottom: 1px solid #dddddd;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.inquiry-price-list {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.inquiry-price-list span {
+    width: 180px;
+    margin-right: 80px;
+    float: left;
+    text-align: right;
+}
+.inquiry-price-list em {
+    float: left;
+    width: 100px;
+    text-align: right;
+    font-style: normal;
+}
+.inquiry-price-submit-container {
+    text-align: right;
+}
+.input-button.submit-btn {
+    background-color: #ff9000;
+    width: 240px;
+    margin-top: 20px;
+}
+.inquiry-price-submit-container p {
+    margin: 20px 20px 0 0;
+    color: #999999;
+}
+.form-percent {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #f7f7f7;
+    position: absolute;
+    right: 84px;
+    top: 1px;
+}
+.select-right {
+    margin-left: 16px;
+}
+/* form style ------------------------*/
+.form-default {
+    margin: 45px 0 45px 80px;
+}
+.form-default .form-group {
+    margin-bottom: 11px;
+}
+.form-default .form-horizontal .control-label {
+    width: 124px;
+    font-size: 14px;
+    float: left;
+    padding-top: 8px;
+    text-align: right;
+    color: #333;
+}
+.form-default .form-horizontal .control-label i {
+    font-size: 12px;
+    color: #ff9000;
+    margin-right: 5px;
+}
+.form-default .form-horizontal .contro-content {
+    width: 756px;
+    float: left;
+}
+.form-default .form-horizontal .contro-content input[type="text"] {
+    width: 450px;
+    padding: 6px;
+    margin-left: 8px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #ddd;
+}
+.form-default .form-horizontal .contro-content input[type="text"].disabled {
+    background-color: #f6f6f6;
+}
+.form-default .form-horizontal .contro-content select {
+    width: 464px;
+    padding: 6px;
+    margin-left: 8px;
+    height: 37px;
+    line-height: 23px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+.form-default .form-horizontal .contro-content textarea {
+    width: 450px;
+    height: 80px;
+    padding: 6px;
+    margin-left: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+.form-default .form-horizontal .contro-content input[type="checkbox"] {
+    margin-left: 7px;
+    margin-right: 5px;
+}
+.width140 {
+    width: 140px !important;
+}
+.width300 {
+    width: 300px !important;
+}
+.width463 {
+    width: 463px !important;
+}
+.form-default .button-wrap {
+    margin-left: 125px;
+    margin-top: 20px;
+}
+.form-default .err .contro-content input[type="text"] {
+    border-color: #ff9000;
+}
+.form-default .err-text {
+    display: none;
+}
+.form-default .err .err-text {
+    display: inline-block;
+    width: 278px;
+    color: #ff9000;
+}
+.form-default .err .err-text .err-mange {
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 8px;
+    margin-right: 10px;
+    background: url(../../../img/public/login-code.png) -78px -36px no-repeat;
+}
+.percent{
+	float: left;
+    height: 33px;
+    background-color: #f7f7f7;
+    position: relative;
+    top: 2px;
+    left: 437px;
+    padding: 0 11px;
+    line-height: 34px;
+}
+.offset-l-27 {
+    margin-left: -27px !important;
+}
+.offset-l7{
+	margin-left: 7px;
+}
+.margin0{
+	margin: 0;
+}
+/* btn style ------------------------*/
+.btn {
+	color: #fff;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1;
+	border-radius: 4px;
+	behavior: url(../../../public/js/PIE.htc);
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	border: none;
+	-ms-touch-action: manipulation;
+	  touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	 -moz-user-select: none;
+	  -ms-user-select: none;
+	      user-select: none;
+}
+.btn-blue {
+	padding: 12px 35px;
+    font-size: 14px;
+    background-color: #0970B5;
+}
+.btn-blue-lg {
+	padding: 20px 30px;
+    font-size: 20px;
+    background-color: #0a70b1;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue-lg:hover,
+.btn-blue-lg:focus,
+.btn-blue-lg:active {
+	background-color: #0a6caa;
+	color: #fff;
+}
+.left435{
+	left: 435px !important;
+}
+.width138{
+	width: 138px !important;
+}
+/* 4-14 修改首页按钮样式 ------------------------*/
+.usercenter-main .order-operation-index dl dd ul li{
+	margin-left: 0px !important;
+}
+.usercenter-main .order-operation-index dl dd ul li a{
+	display: inline !important;
+}
+/* 4-18 修改首页单位样式 ------------------------*/
+.table-mange-unit label{
+	width: 60px;
+}
+
+/*批量询价列表*/
+.multiple-inquiry .inquiry-nav{
+    margin-top: 20px;
+}
+.multiple-inquiry .on-sale-control {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.multiple-inquiry .os-primary {
+    width: 220px;
+}
+.multiple-inquiry-desc {
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.multiple-inquiry .on-sale-checkbox {
+    margin-right: 20px;
+}
+.multiple-inquiry .on-sale-table-header th ,.multiple-inquiry .on-sale-table td {
+    text-align: left;
+    text-indent: 9px;
+}
+.multiple-inquiry .on-sale-table .on-sale-table-header {
+    height: 36px;
+    line-height: 36px;
+}
+.multiple-inquiry .on-sale-table td {
+    height: 40px;
+}
+
+/* 4-25 弹出框table ------------------------*/
+.layer-table-info tr{
+	line-height: 30px;
+}
+.layer-table-info th{
+	text-align: right;
+}
+
+/* 4-27 用户中心订单列表table ------------------------*/
+.inquiry-content-row .order-list-table{
+	table-layout: fixed;
+}
+.inquiry-content-row .order-list-table td{
+	width: 100px;
+	word-wrap: break-word;
+}
+.width158{
+	width: 158px !important;
+}

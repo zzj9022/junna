@@ -1,0 +1,2203 @@
+
+.success .none-pcode {
+    background: url("../../img/public/p-code.png") 0 5px no-repeat;
+    float: left;
+    width: 43px;
+    height: 43px;
+}
+
+.none-pcode {
+    background: url("../../img/public/p-code.png") -68px 0px no-repeat;
+    float: left;
+    width: 43px;
+    height: 43px;
+}
+
+.title-radius {
+    width: 100px;
+    height: 26px;
+    float: left;
+    background: url("../../img/public/titile-radius.png") no-repeat;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.member-title {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.member-title span {
+    line-height: 39px;
+    font-size: 16px;
+    color: #0078d8;
+    font-weight: 400;
+    border-bottom: 2px solid #0078d8;
+    display: block;
+    width: 120px;
+    text-align: center;
+
+}
+
+.shop-menu + div {
+    width: 960px;
+
+}
+
+.shopmange-main > div {
+    clear: both;
+    width: 958px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+}
+
+.shopmange-main > div table {
+    width: 958px;
+    border-collapse: collapse;
+}
+
+.shopmange-main > div table tr {
+    width: 958px;
+}
+
+.shopmange-main > div table th {
+    background: #f7f7f7;
+    width: 239px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #474747;
+    font-size: 14px;
+}
+
+.shopmange-main > div table td {
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    width: 239px;
+}
+.shopmange-main > div table .first{
+    font-size: 14px;
+    text-indent: -30px;
+}
+.shopmange-main > div table td span {
+    color: #0078d8;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+
+.shopmange-main > div table tr:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.shopmange-main .add-table {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0a70b1;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 15px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mange-updata {
+    margin-left: 65px;
+}
+
+.mange-updata p {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.mange-updata p i {
+    float: left;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    font-style: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.mange-updata p input {
+    width: 300px;
+    height: 30px;
+    float: left;
+    border: 1px solid #ddd;
+    color: #666666;
+    text-indent: 5px;
+
+}
+
+.mange-updata .classlevel input {
+    width: 14px !important;
+    height: 14px !important;
+    position: relative;
+    top: 8px;
+
+}
+
+.mange-updata .classlevel label {
+    width: 120px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 7px;
+    color: #333;
+}
+
+.mange-updata p select {
+    height: 28px;
+    width: 300px;
+    border: 1px solid #ddd;
+    color: #666666;
+}
+
+.mange-updata p textarea {
+    border: 1px solid #ddd;
+    color: #666666;
+    width: 300px;
+    height: 90px;
+    text-indent: 5px;
+}
+
+.mange-updata .mange-ok {
+    width: 140px;
+    height: 40px;
+    background: #0a70b1;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 79px;
+    margin-top: 20px;
+}
+
+.mange-updata .mange-ok + button {
+    margin-top: 20px;
+    background: #ddd;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: #666;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.delete-ok, .delete-ok + button {
+    margin-top: 30px;
+    background: #ddd;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: #666;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.delete-ok {
+    background: #0a70b1;
+    color: #fff;
+    margin-left: 66px;
+}
+
+.mange-updata h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    text-indent: 138px;
+    margin-top: 20px;
+}
+
+.child-account .mange-updata button {
+    margin-top: 0 !important;
+}
+
+.nember-security {
+
+}
+
+.numer-data {
+    padding-bottom: 80px;
+    min-height: 500px;
+}
+
+.numer-data .ndata-main {
+    width: 760px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.numer-data .ndata-main .ndata-main-top {
+    margin-bottom: 20px;
+}
+
+.numer-data .ndata-main .ndata-main-top p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #0078d8;
+    line-height: 20px;
+    height: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.numer-data .ndata-main .ndata-main-top > p > span, .numer-data .ndata-main form p span {
+    font-weight: 400;
+    float: left;
+    width: 116px;
+    text-align: right;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.numer-data .ndata-main .ndata-main-top > p label {
+    color: #9fc203;
+    font-size: 18px;
+}
+
+.numer-data .ndata-main .ndata-main-top > p i {
+    vertical-align: bottom;
+    font-size: 12px;
+    color: #aaaaaa;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: 2px;
+}
+
+.numer-data .ndata-main .ndata-main-top > p a {
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    color: #0078d8;
+    text-decoration: underline;
+    margin-top: 3px;
+    margin-right: 160px;
+}
+
+.numer-data .ndata-main h5 {
+    position: relative;
+    border-top: 1px dashed #ddd;
+    margin-bottom: 45px;
+}
+
+.numer-data .ndata-main h5 span {
+    position: absolute;
+    bottom: -13px;
+}
+
+.numer-data .ndata-main h5 + h4 {
+    font-size: 12px;
+    color: #0078d8;
+    margin-left: 26px;
+    font-weight: 400;
+    width: 210px;
+    height: 20px;
+    background: #e4f1fb;
+    border: 1px dashed #90c5ef;
+    padding: 10px 245px;
+    margin-bottom: 15px;
+}
+
+.numer-data .ndata-main form p {
+    position: relative;
+    line-height: 35px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.numer-data .ndata-main form p span {
+    height: 35px;
+    line-height: 35px;
+}
+
+.numer-data .ndata-main form p label {
+    font-style: normal;
+}
+
+.numer-data .ndata-main form p input {
+    display: none;
+    font-size: 12px;
+    color: #aaa;
+    width: 450px;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 5px;
+    border: 1px solid #ddd;
+}
+
+.numer-data .ndata-main form > input {
+    background: #0078d8;
+    width: 155px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    margin-left: 226px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.numer-data .ndata-main form > .form-btn-group {
+    margin-left: 226px;
+    margin-top: 20px;
+}
+
+.numer-data .ndata-main form > .form-btn-group input {
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    height: 40px;
+}
+
+.numer-data .ndata-main form > .form-btn-group input + input {
+    margin-left: 22px;
+}
+
+.numer-data .ndata-main form > .form-btn-group .save {
+    background: #0a70b1;
+    width: 140px;
+}
+
+.numer-data .ndata-main form > .form-btn-group .cancel {
+    background: #dddddd;
+    width: 100px;
+    color: #666666;
+}
+
+.input-readonly {
+    background-color: #f6f6f6;
+}
+
+.ndata-main-select {
+
+}
+
+.ndata-main-select ul {
+    margin-left: 140px;
+}
+
+.ndata-main-select ul li {
+    float: left;
+    width: 216px;
+    height: 196px;
+    background: #f7ffe7;
+    border: 2px solid #9fc203;
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+.ndata-main-select ul .bule {
+    background: #f2f8fd;
+    border: 2px solid #0078d8;
+}
+
+.ndata-main-select ul li dl {
+    text-align: center;
+}
+
+.ndata-main-select ul li dl dt {
+    margin-top: 30px;
+}
+
+.ndata-main-select ul li dl dd {
+    color: #9fc203;
+}
+
+.ndata-main-select ul .bule dl dd {
+    color: #0078d8;
+}
+
+.ndata-main-select ul li dl dd h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.ndata-main-select ul li dl dd span {
+    font-size: 12px;
+    color: #b6c088;
+}
+
+.ndata-main-select ul .bule dl dd span {
+    color: #80a1bc;
+}
+
+.member-list {
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.member-list > ul > li {
+    width: 734px;
+    height: 75px;
+    border-bottom: 1px dashed #ddd;
+    line-height: 75px;
+}
+
+.member-list > ul > li span {
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.member-list > ul > li p span{
+    margin-top: 27px;
+    margin-left: 0;
+    position: absolute;
+    left: -22px;
+}
+.member-list > ul > li h4 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.member-list > ul > li p {
+    margin-left: 30px;
+    font-size: 12px;
+    color: #aaa;
+    float: left;
+}
+
+.member-list > ul > li a {
+    float: right;
+    background: #0078d8;
+    height: 28px;
+    width: 70px;
+    font-size: 12px;
+    line-height: 28px;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+.member-list > ul .success a {
+    color: #0078d8;
+    background: #fff;
+}
+
+.member-list > ul .success p {
+    color: #ff9000;
+}
+
+.member-list > ul li .membe-success {
+    display: none;
+}
+
+.member-list > ul .success .membe-none {
+    display: none;
+}
+
+.member-list > ul .success .membe-success {
+    display: block;
+}
+
+.member-list > ul .success .membe-success.validate{
+    position: relative;
+    color: #aaaaaa;
+}
+.member-list > ul .success .membe-success.validate label{
+    color: #0a70b1;
+}
+.member-list > ul .success .membe-success.validate i{
+    color: #ff9000;
+    font-style: normal;
+}
+.bind-main {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.bind-main p {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.bind-main p > span {
+    width: 110px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #333333;
+    text-align: right;
+}
+
+.bind-main p > span > i {
+    font-size: 12px;
+    color: #ff9000;
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+
+.bind-main p input {
+    width: 350px;
+    height: 35px;
+    color: #aaaaaa;
+    font-size: 12px;
+    margin-left: 10px;
+    text-indent: 10px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.bind-main p > i {
+    display: none;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-style: normal;
+    margin-left: 20px;
+    color: #ff9000;
+    font-size: 12px;
+
+}
+
+.bind-main .err > i {
+    display: block !important;
+}
+
+.bind-main .err input {
+    color: #ff9000;
+    border: 1px solid #ff9000;
+}
+
+.bind-main p > i > span {
+    margin-top: 9px;
+
+}
+
+.bind-main .img-verification input, .bind-main .dym-verification input {
+    width: 200px;
+}
+
+.bind-main .img-verification img {
+    width: 130px;
+    height: 35px;
+    margin-left: 20px;
+    float: left;
+}
+
+.bind-main .dym-verification .set-num {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    color: #fff;
+    background: #ff9000;
+    border: 0;
+    text-indent: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.bind-main .success {
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.bind-main .success i {
+    display: block;
+    color: #a0c100;
+    font-size: 12px;
+}
+
+.bind-main > input {
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    font-size: 16px;
+    background: #268ac8;
+    border: 0;
+    border-radius: 5px;
+    margin: 50px 40px 0 120px;
+}
+
+.bind-main > input + span {
+    font-size: 14px;
+    color: #0a70b1;
+    /*vertical-align: middle;*/
+}
+
+.bind-main p > label {
+    float: left;
+    font-size: 18px;
+    color: #0078d8;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 25px;
+}
+
+.bind-main p > select {
+    width: 350px;
+    height: 35px;
+    font-size: 14px;
+    margin-left: 10px;
+    text-indent: 10px;
+    float: left;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.numer-data .ndata-main .updata-forms p {
+    overflow: inherit;
+}
+
+.numer-data .ndata-main form p span.radio {
+    width: 65px;
+}
+
+.numer-data .ndata-main .updata-forms p input {
+    display: block;
+}
+
+.numer-data .ndata-main .updata-forms p .radio input {
+    width: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+.numer-data .ndata-main .updata-forms p .radio label {
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.numer-data .ndata-main .updata-forms p span i {
+    font-size: 12px;
+    color: #ff9000;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-style: normal;
+}
+
+.numer-data .ndata-main .updata-forms p label {
+    float: left;
+    text-align: center;
+}
+
+.numer-data .ndata-main .updata-forms p .text-main {
+    text-align: left;
+    width: 520px;
+    line-height: 25px;
+    margin-top: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.numer-data .ndata-main .updata-forms p select {
+    height: 35px;
+    width: 140px;
+    color: #333;
+    margin-right: 16px;
+    text-align: center;
+    border: 1px solid #ddd;
+    text-indent: 10px;
+}
+
+.numer-data .ndata-main .updata-forms p textarea {
+    width: 450px;
+    height: 95px;
+    border: 1px solid #ddd;
+}
+
+.numer-data .ndata-main .updata-forms p .add-image {
+    float: left;
+    width: 360px;
+    height: 200px;
+    background: #f7f7f7;
+    border: 1px dashed #ddd;
+    position: relative;
+    text-align: center !important;
+}
+
+.numer-data .ndata-main .updata-forms p .add-image input, .numer-data .ndata-main .updata-forms p .add-image label {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    z-index: 99;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.numer-data .ndata-main .updata-forms p .add-image label {
+    opacity: 1;
+    z-index: 9;
+    background: #00b7ee;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.numer-data .ndata-main .updata-forms p .add-image img {
+    height: 73px;
+    width: 83px;
+    margin-top: 30px;
+}
+
+.numer-data .ndata-main .updata-forms  .notes {
+    font-size: 12px;
+    color: #aaaaaa;
+    font-style: normal;
+    /*float: left;*/
+    margin-left: 230px;
+    margin-top: -20px;
+}
+
+.numer-data .ndata-main .updata-forms p .pull-walue {
+    width: 290px;
+    float: left;
+}
+
+.numer-data .ndata-main .updata-forms p .push-num {
+    width: 130px;
+    height: 37px;
+    background: #ff9000;
+    color: #fff;
+    line-height: 37px;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.numer-data .ndata-main .updata-forms p .sc-notes {
+    float: left;
+    font-size: 12px;
+    color: #a0c100;
+    font-style: normal;
+    margin-left: 120px;
+}
+
+.numer-data .ndata-main .updata-forms p .sc-notes .prompt-code {
+    float: left;
+    width: 20px;
+    height: 18px;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+
+.numer-data .ndata-main .updata-forms p > .err-mange {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-style: normal;
+    margin-left: 20px;
+    color: #ff9000;
+    position: absolute;
+    font-size: 12px;
+    right: -18px;
+    display: none;
+    top: 0;
+}
+
+.numer-data .ndata-main .updata-forms .err .err-mange {
+    display: block;
+}
+
+.numer-data .ndata-main .updata-forms .err input {
+    border: 1px solid #ff9000;
+    color: #ff9000;
+}
+
+.numer-data .ndata-main .updata-forms .err select {
+    border: 1px solid #ff9000;
+}
+
+.numer-data .ndata-main .updata-forms p > .err-mange span {
+    width: 18px;
+    height: 20px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+.invoice-select {
+    margin-left: 335px;
+    margin-top: 20px;
+}
+
+.invoice-select li {
+    float: left;
+    width: 150px;
+    height: 35px;
+    background: #fff;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.invoice-select li:hover {
+    background: #0078d8;
+    color: #fff;
+    border: 1px solid #0078d8;
+}
+
+.invoice-select .active {
+    background: #0078d8;
+    color: #fff;
+    border: 1px solid #0078d8;
+}
+
+.numer-data .ndata-main form > .reset-button {
+    width: 100px;
+    background: #ddd;
+    color: #666;
+    margin-left: 25px;
+}
+
+.invoice-img {
+    width: 100px;
+    height: 100px;
+}
+
+.follow-main {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.follow-list ul li {
+    float: left;
+    width: 218px;
+    height: 258px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 10px 20px 10px;
+}
+
+.follow-list ul li dl dt a, .follow-list ul li dl dt {
+    line-height: 185px;
+    width: 218px;
+    height: 185px;
+    cursor: pointer;
+    display: block;
+    vertical-align: middle;
+}
+
+.follow-list ul li dl dt img {
+    width: 218px;
+    height: 185px;
+
+}
+
+.follow-list ul li dl dd {
+    height: 18px;
+    width: 198px;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.follow-name {
+    border-bottom: 1px solid #ccc;
+    background: #e5ebfb;
+}
+
+.follow-list ul li dl dd p {
+    color: #333;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.follow-list ul li dl dd span {
+    font-size: 12px;
+    color: #666666;
+}
+
+.follow-list ul li dl dd label {
+    cursor: pointer;
+}
+
+.follow-layer {
+    margin-left: 80px;
+}
+
+.follow-layer dl {
+    overflow: hidden;
+}
+
+.follow-layer dl dt span {
+    margin-right: 15px;
+}
+
+.follow-layer dl dd p {
+    font-size: 24px;
+    color: #ff9000;
+    margin-top: 10px;
+}
+
+.follow-layer dl dd span {
+    font-size: 14px;
+    color: #666;
+}
+
+.follow-layer dl dd {
+    margin-top: 10px;
+}
+
+.follow-layer .delete-ok {
+    margin-left: 10px;
+}
+
+.invoice-list {
+    margin-left: 200px !important;
+}
+
+.invoice-list .updata-forms h4 {
+    font-size: 12px;
+    color: #0078d8;
+    font-weight: 400;
+    width: 340px;
+    height: 18px;
+    line-height: 16px;
+    margin-left: 132px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.usercenter-main {
+    width: 970px !important;
+}
+
+.usercenter-main .center-top, .usercenter-main .center-middle, .usercenter-main .center-bottome {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.usercenter-main .center-top {
+    /*height: 190px;*/
+}
+
+.usercenter-main .center-top > dl dt img {
+    background: url("../../img/public/Usercenter-topcde.png") 1px -35px no-repeat;
+    display: block;
+    height: 92px;
+    width: 92px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    behavior: url(../../js/public/PIE.htc);
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+
+.usercenter-main .center-top > dl dt {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    behavior: url(../../js/public/PIE.htc);
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.usercenter-main .center-top > dl dd p {
+    margin-top: 5px;
+}
+
+.usercenter-main .center-top > dl dd p i {
+    font-size: 18px;
+    color: #0078d8;
+    float: left;
+    font-style: normal;
+    margin-right: 10px;
+    padding-left: 15px;
+    /*font-weight: bold;*/
+}
+
+.usercenter-main .center-top > dl dd p span {
+    margin-right: 5px;
+}
+
+.usercenter-main .center-top > dl dd p a {
+    font-size: 12px;
+    color: #999;
+    margin-left: 15px;
+}
+
+.center-phone {
+    background: url("../../img/public/center-code.png") -90px 1px no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.center-mail {
+    background: url("../../img/public/center-code.png") -121px 4px no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.authentication-code{
+    background: url("../../img/public/center-code.png") -150px 1px no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.authentication-code-gray{
+    background: url("../../img/public/center-code.png") -58px 1px no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.center-phone-gray {
+    background: url("../../img/public/center-code.png") 5px 1px no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.center-mail-gray  {
+    background: url("../../img/public/center-code.png") -27px 4px no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.usercenter-main .center-top > dl {
+    width: 700px;
+    margin: 25px 0 25px 20px;
+}
+
+.usercenter-main .center-top > dl dd {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.usercenter-main .center-top > dl dd ul li {
+
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid #ddd;
+    height: 14px;
+    line-height: 14px;
+}
+
+.usercenter-main .center-top > dl dd ul li a {
+    font-size: 12px;
+    color: #777;
+}
+
+.last-border0 {
+    border: 0 !important;
+}
+
+.usercenter-main .center-top .apply {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    behavior: url(../../js/public/PIE.htc);
+    background: #0078d8;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.usercenter-main .center-top >.order-div {
+    height: 50px;
+    background: #f7f7f7;
+    border-top: 1px solid #ddd;
+    margin-top: 25px;
+    clear: both;
+}
+
+.usercenter-main .center-top >.order-div ul li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #666666;
+    font-size: 12px;
+    margin-right: 30px;
+    width: 102px;
+}
+
+.usercenter-main .center-top >.order-div ul li > p {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.center-mar0 {
+    margin: 0 !important;
+}
+
+.usercenter-main .center-top >.order-div ul li a i {
+    font-style: normal;
+    float: left;
+}
+
+.usercenter-main .center-top >.order-div ul li a i:hover {
+    font-weight: bold;
+}
+
+.usercenter-main .center-top >.order-div ul li span {
+    margin: 12px 5px 0 5px;
+}
+
+.usercenter-main .center-top >.order-div ul li label {
+    margin-top: 18px;
+    margin-left: 5px;
+}
+/*finance-div*/
+.usercenter-main .center-top .finance-div{
+    height: 78px;
+    border-bottom: 1px solid #ddd;
+    border-top:1px solid #ddd;
+    clear: both;
+}
+.usercenter-main .center-top .finance-div p,.usercenter-main .center-top .commodity-div p{
+    font-size: 14px;
+    color: #666;
+    float: left;
+    line-height: 78px;
+    text-indent: 20px;
+}
+.usercenter-main .center-top .finance-div ul,.usercenter-main .center-top .commodity-div ul{
+    float: left;
+    padding-left: 10px;
+}
+.usercenter-main .center-top .finance-div ul li{
+    float: left;
+    font-size: 12px;
+    color: #666;
+    line-height: 76px;
+    width: 200px;
+    margin-right: 40px;
+}
+ .usercenter-main .center-top .finance-div ul li span{
+    color: #ff9000;
+     font-size: 18px;
+     margin-left: 5px;
+ }
+.usercenter-main .center-top .finance-div ul li a{
+    display: block;
+}
+.usercenter-main .center-top .finance-div .apply{
+    margin-top: 18px;
+}
+/*commodity-div*/
+.usercenter-main .center-top .commodity-div{
+    height: 78px;
+}
+
+.usercenter-main .center-top .commodity-div ul li{
+    float: left;
+    margin-right: 60px;
+    line-height: 78px;
+}
+.usercenter-main .center-top .commodity-div ul li a{
+    font-size: 12px;
+    color: #0a70b2;
+}
+.usercenter-main .center-top .commodity-div ul li a label{
+    width: 18px;
+    height: 18px;
+    float: right;
+    margin-top: 31px;
+    margin-left: 5px;
+    background: url(../../img/public/Usercenter-topcde.png) -284px 0px no-repeat;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+}
+.usercenter-main .allorder-cder1 {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../../img/public/Usercenter-topcde.png") 1px 1px no-repeat;
+}
+
+.usercenter-main .allorder-cder2 {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../../img/public/Usercenter-topcde.png") -48px 1px no-repeat;
+}
+
+.usercenter-main .allorder-cder3 {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../../img/public/Usercenter-topcde.png") -96px 1px no-repeat;
+}
+
+.usercenter-main .allorder-cder4 {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../../img/public/Usercenter-topcde.png") -144px 1px no-repeat;
+}
+
+.usercenter-main .allorder-cder5 {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../../img/public/Usercenter-topcde.png") -194px 1px no-repeat;
+}
+
+.usercenter-main .allorder-cder6 {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../../img/public/Usercenter-topcde.png") -238px 1px no-repeat;
+}
+
+.usercenter-main .allorder-num {
+    width: 18px;
+    height: 18px;
+    float: left;
+    background: url("../../img/public/Usercenter-topcde.png") -284px 0px no-repeat;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+}
+.usercenter-main .center-middle .more-mainl{
+    text-align: left;
+    font-size: 16px;
+    color: #333333;
+    padding-left:10px;
+}
+.usercenter-main .center-middle .more-main {
+    text-align: right;
+    font-size: 12px;
+
+}
+.usercenter-main .center-middle .more-main a{
+    color: #999999;
+    padding-right: 10px;
+}
+.usercenter-main .center-middle table {
+    border-collapse: collapse;
+    width: 969px;
+}
+
+.usercenter-main .center-middle table th {
+    background: #eeeeee;
+    height: 40px;
+
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    text-align: center;
+}
+
+.order-mange {
+    width: 450px;
+}
+
+.usercenter-main .center-middle table td {
+    padding: 0;
+    margin: 0;
+}
+
+.usercenter-main .center-middle table dl dt {
+    background: #f4f5f6;
+    border-bottom: 1px dashed #ccc;
+    height: 40px;
+    line-height: 40px;
+}
+
+.usercenter-main .center-middle table dl dt {
+    font-size: 12px;
+    color: #666666;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.usercenter-main .center-middle table dl dt label {
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+.usercenter-main .center-middle table dl dt span i {
+    font-style: normal;
+    color: #0a70b1;
+}
+
+.usercenter-main .center-middle table dl dd {
+    height: 105px;
+    padding-top: 10px;
+    display: table;
+    width: 100%;
+}
+.usercenter-main .center-middle table dl dd ul{
+    display: table-cell;
+    vertical-align: middle;
+}
+.usercenter-main .center-middle table dl dd .table-mange,.usercenter-main .center-middle table dl dd .table-manges {
+    width: 440px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.usercenter-main .center-middle table dl dd .table-manges{
+    display: table;
+    height: 95px;
+}
+.usercenter-main .center-middle table dl dd .table-manges span b{
+    font-size: 12px;
+    color: #999;
+    display: block;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.usercenter-main .center-middle table dl dd .table-manges span,.usercenter-main .center-middle table dl dd .table-manges label,.usercenter-main .center-middle table dl dd .table-manges i{
+    display: table-cell;
+    vertical-align:middle;;
+    float: none !important;
+}
+
+.usercenter-main .center-middle table dl dd .table-mange span,.usercenter-main .center-middle table dl dd .table-manges span {
+    width: 210px;
+    float: left;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.usercenter-main .center-middle table dl dd .table-mange label, .usercenter-main .center-middle table dl dd .table-mange i,.usercenter-main .center-middle table dl dd .table-manges label,.usercenter-main .center-middle table dl dd .table-manges i {
+    color: #999;
+    float: left;
+    margin-left: 55px;
+}
+.usercenter-main .center-middle table dl dd .second-mange .table-mange label, .usercenter-main .center-middle table dl dd .second-mange .table-mange i,.usercenter-main .center-middle table dl dd .second-mange .table-manges label,.usercenter-main .center-middle table dl dd .second-mange .table-manges i {
+    margin-left: 35px;
+}
+.usercenter-main .center-middle table dl dd .table-mange i,.usercenter-main .center-middle table dl dd .table-manges i {
+    font-style: normal;
+}
+
+.usercenter-main .center-middle table dl dd {
+    color: #666;
+    text-align: center;
+}
+
+.usercenter-main .order-staic {
+    width: 80px;
+}
+
+.usercenter-main .order-operation {
+    width: 190px;
+}
+
+.usercenter-main .center-middle table .order-operation dl dt {
+    /*text-align: left !important;*/
+    padding-left: 0;
+}
+
+.usercenter-main .order-operation dl dd ul li {
+    margin-left: 50px;
+}
+
+.usercenter-main .order-operation dl dd ul li a {
+    height: 22px;
+    width: 70px;
+    text-align: center;
+    background: #fff;
+    color: #0078d8;
+    display: block;
+    line-height: 22px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    behavior: url(../../js/public/PIE.htc);
+}
+
+.usercenter-main .order-operation dl dd ul .active a {
+    background: #0078d8;
+    color: #fff;
+    border: 1px solid #0078d8;
+}
+
+.usercenter-main .order-operation dl dd ul .again a {
+    border: 1px solid #ccc;
+    color: #666;
+}
+
+.usercenter-main .center-middle table dl dd > span {
+    margin-top: 18px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.usercenter-main .center-middle table dl dd > span>a{
+    display: block;
+
+}
+.usercenter-main .center-middle table dl dd > label {
+    margin-top: 10px;
+    display: table-cell;
+    color: #666;
+    vertical-align: middle;
+}
+
+.usercenter-main .center-bottom > div {
+    border: 1px solid #ccc;
+    width: 478px;
+    height: 298px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.usercenter-main .center-bottom > div > p {
+    background: #eeeeee;
+    height: 44px;
+    line-height: 44px;
+    text-indent: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.usercenter-main .center-bottom > div > p a {
+    margin-right: 10px;
+    color: #999;
+    font-size: 12px;
+}
+
+.usercenter-main .center-bottom > div dl {
+    overflow: hidden;
+    float: left;
+    width: 150px;
+    height: 68px;
+    margin: 15px 44px;
+}
+
+.usercenter-main .center-bottom > div dl dt, .usercenter-main .center-bottom > div dl dt span {
+    float: left;
+    width: 66px;
+    height: 66px;
+}
+
+.index-inquiry .set-inquiryv {
+    background: url("../../img/public/Usercenter-code.png") 0px 0px no-repeat;
+
+}
+
+.index-inquiry .receive-inquiryv {
+    background: url("../../img/public/Usercenter-code.png") -116px 0px no-repeat;
+}
+
+.index-follow .follow-commodity {
+    background: url("../../img/public/Usercenter-code.png") -354px 0px no-repeat;
+}
+
+.index-follow .follow-shop {
+    background: url("../../img/public/Usercenter-code.png") -236px 0px no-repeat;
+}
+
+.usercenter-main .center-bottom > div dl dd {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.usercenter-main .center-bottom > div dl dd a {
+    font-size: 18px;
+    color: #0078d8;
+    margin-top: 14px;
+    display: block;
+}
+
+.usercenter-main .center-bottom > div table {
+    width: 478px;
+    border-top: 1px solid #ccc;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.usercenter-main .center-bottom > div table td {
+    border-bottom: 1px dotted #ccc;
+    height: 39px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 39px;
+}
+
+.index-inquiry .first-name {
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.index-inquiry .first-static {
+    width: 40px;
+    text-align: center;
+}
+
+.index-inquiry .first-time {
+    width: 110px;
+    text-align: center;
+}
+
+.index-inquiry .first-cost {
+
+}
+
+.index-inquiry .first-cost a {
+    color: #ff9000;
+}
+
+.index-inquiry .first-cost.nonecost {
+    color: #aaaaaa;
+}
+
+.index-follow .second-name {
+    width: 340px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.index-follow .second-details {
+    text-align: right;
+    padding-right: 30px !important;
+}
+
+.index-follow .second-details a {
+    color: #0a70b1;
+}
+
+.enquiry .enquiry_details {
+    width: 950px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+}
+
+.enquiry .offer_content {
+    width: 950px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+}
+
+.enquiry .offer_content .no_quotation {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f7f7f7;
+    color: #666666;
+}
+
+.enquiry .offer_content table {
+    width: 950px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.enquiry .offer_content table tr {
+    height: 40px;
+}
+
+.enquiry .offer_content table tr th {
+    height: 42px;
+}
+.enquiry .offer_content table tr td {
+    height: 60px;
+}
+
+.enquiry .offer_content table tr:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.enquiry .offer_content table tr td:last-child span {
+    color: #0078d8;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.enquiry .enquiry_details .enquiry_details_tit, .offer_content .offer_content_tit {
+    height: 40px;
+    background: #eeeeee;
+    line-height: 40px;
+}
+
+.enquiry .enquiry_details .enquiry_details_tit p {
+    float: left;
+    color: #474747;
+}
+
+.offer_content .offer_content_tit p {
+    float: left;
+    color: #474747;
+    margin-left: 10px;
+}
+
+.enquiry_details .enquiry_details_tit p:first-child {
+    margin: 0 15px 0 10px;
+}
+
+.enquiry_details .enquiry_details_tit p:first-child span {
+    color: #0a70b2;
+}
+
+.enquiry_details .enquiry_details_tit p:first-child + p {
+    margin-right: 5px;
+}
+
+.enquiry .enquiry_details .enquiry_details_tit .enquiry_state {
+    float: right;
+    margin-right: 10px;
+}
+
+.colorspan {
+    color: #ff9000;
+}
+
+.colorspan2 {
+    color: #c6da66;
+}
+
+.colorspan3 {
+    color: #c9c9c9;
+}
+
+.colorspan4 {
+    color: #aaaaaa;
+}
+
+.enquiry_details table .enquiry_td {
+    width: 140px;
+    height: 40px;
+    text-align: right;
+}
+
+.enquiry_details table .enquiry_tds {
+    width: 340px;
+    height: 40px;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.enquiry_details table {
+    border-collapse: collapse;
+}
+
+.enquiry_details table td {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc
+}
+
+.enquiry_details table tr td:first-child {
+    border-left: none;
+}
+
+.popup .tit_content {
+    width: 310px;
+    height: 60px;
+    margin: 30px auto 0 auto;
+    background: url("../../img/public/del.jpg") no-repeat;
+}
+
+.popup .tit_content p:first-child {
+    font-size: 24px;
+    color: #ff9000;
+    margin: 10px 0 0 70px;
+    float: left;
+}
+
+.popup .tit_content p:last-child {
+    font-size: 14px;
+    color: #666666;
+    margin: 10px 0 0 70px;
+    float: left;
+}
+
+.popup .button_content {
+    width: 300px;
+    height: 40px;
+    margin: 30px 0 0 90px;
+    font-size: 16px;
+}
+
+.popup .button_content button:first-child {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background: #0a70b1;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.popup .button_content button:last-child {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+    background: #dddddd;
+    border: 0;
+    border-radius: 5px;
+}
+
+.viewDetail .viewDetail_tit {
+    margin: 25px auto 20px auto;
+    text-align: center;
+}
+
+.viewDetail .viewDetail_tit p:first-child {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.viewDetail .viewDetail_tit p:last-child {
+    color: #aaaaaa;
+    margin-top: 5px;
+}
+
+.viewDetail .viewDetail_tit p:last-child span {
+    color: #0a70b1;
+}
+
+.viewDetail .viewDetail_con {
+    width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+.viewDetail .viewDetail_con p:first-child {
+    font-size: 14px;
+    color: #333333;
+    height: 25px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.viewDetail .viewDetail_con .detail_info {
+    height: 30px;
+    line-height: 30px;
+}
+
+.viewDetail .viewDetail_con .detail_info span {
+    float: left;
+}
+
+.viewDetail .viewDetail_con .detail_info .spanwidth {
+    width: 250px;
+}
+
+.viewDetail .button_con {
+    margin: 40px 0 0 80px;
+}
+
+.viewDetail .button_con button:first-child {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background: #0078d8;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.viewDetail .button_con button:first-child + button {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background: #ff9000;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.viewDetail .button_con button:last-child {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background: #dddddd;
+    color: #666666;
+    cursor: pointer;
+}
+
+/*�ϴ�*/
+.updata-forms .single_image{
+    margin-left: 100px;
+}
+#wrapper .filelist p{
+    margin-left: 0;
+}
+
+/*销售中的商品*/
+.on-sale-table {
+    width: 960px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+.on-sale-table .on-sale-table-header {
+    height: 48px;
+    line-height: 48px;
+    background-color: #f1f1f1;
+    border: 1px solid #e4e4e4;
+}
+.on-sale-table-header th {
+    font-size: 14px;
+    color: #333333;
+}
+.on-sale-table td {
+    height: 82px;
+    border-bottom: 1px dashed #cecece;
+}
+.on-sale-table td span {
+    text-align: left;
+}
+.on-sale-table td a {
+    color: #0a70b1;
+    margin-left: 8px;
+}
+.on-sale-img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cacaca;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.on-sale-product-info {
+    /* display: inline-block; */
+    vertical-align: middle;
+}
+.on-sale-checkbox {
+    margin-right: 5px;
+}
+.on-sale-control {
+    height: 30px;
+    margin: 19px 0 9px 0;
+}
+.select-all {
+    margin-left: 15px;
+    margin-right: 16px;
+}
+.on-sale-btn {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+}
+.os-primary {
+    background-color: #0a70b1;
+}
+.on-sale-product-info-1 {
+    font-size: 14px;
+    width:112px;
+}
+.on-sale-product-info-2 {
+    color: #999999;
+}
+.stock-list .order-form input, .stock-list .order-form select {
+    width: 128px;
+}
+.stock-list .order-form label {
+    width: 72px;
+}
+.stock-list tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+.stock-list tr:first-child {
+    background-color: #f1f1f1;
+
+}
+/* 取消订单样式  */
+.confirm-receipt-content{
+	margin: 30px 55px;
+}
+.confirm-receipt-content img{
+	float: left;
+}
+.confirm-receipt-content .remind{
+	color: #ff9000;
+	font-size: 24px;
+	line-height: 37px;
+}
+.confirm-receipt-content p{
+	padding-left: 68px;
+}
+.btn1 {
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 4px;
+    behavior: url(../js/public/PIE.htc);
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn-blue-receipt{
+	padding: 12px 28px;
+    font-size: 14px;
+    background-color: #0970B5;
+}
+.btn-blue-receipt:hover{
+    background-color: #09598e;
+}
+.btn-cancel {
+    color: #666666;
+    padding: 12px 35px;
+    font-size: 14px;
+    background-color: #dddddd;
+}
+.text-center{
+	text-align: center;
+}
+.width100{
+	width: 100px !important;
+}
+.offset-l20{
+	margin-left: 20px;
+
+}
+/* 加%样式  */
+.percent{
+    float: left;
+    height: 33px;
+    background-color: #f7f7f7;
+    position: relative;
+    top: -45px;
+    left: 642px;
+    padding: 0 11px;
+    line-height: 34px;
+}
+
+.store-adjust-js {
+    cursor: pointer;
+}
+
+/*商品库存管理*/
+#storeManage>p {
+    margin: 26px 0 40px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.store-manage-content {
+    width: 400px;
+    margin: auto;
+}
+.store-manage-content h4 {
+    font-size: 14px;
+    height: 30px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.store-manage-content h4 span {
+    line-height: 30px;
+}
+.store-manage-content form p {
+    position: relative;
+    font-size: 12px;
+    color: #333333;
+}
+.store-manage-content form p i{
+    position: absolute;
+    font-style: normal;
+    left: -10px;
+    top: 9px;
+}
+.store-manage-content form p span {
+    width: 81px;
+    text-align: right;
+}
+.store-manage-content form p label {
+    margin-right: 20px;
+}
+.change-value {
+    width: 300px;
+    height: 30px;
+    text-indent: 9px;
+    border: 1px solid #cccccc;
+}
+.btn-link {
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+}
+.btn-link + .btn-link {
+    margin-left: 20px;
+}
+.btn-link.success {
+    color: #fff;
+    background: #0a70b1;
+    width: 140px;
+}
+.btn-link.cancel {
+    color: #666666;
+    background: #dddddd;
+    width: 100px;
+
+}
+/*商品库存管理*/
+#storeManage>p {
+    margin: 26px 0 40px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.store-manage-content {
+    width: 400px;
+    margin: auto;
+}
+.store-manage-content h4 {
+    font-size: 14px;
+    height: 30px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.store-manage-content h4 span {
+    line-height: 30px;
+}
+.store-manage-content form p {
+    position: relative;
+    font-size: 12px;
+    color: #333333;
+}
+.store-manage-content form p i{
+    position: absolute;
+    font-style: normal;
+    left: -10px;
+    top: 9px;
+}
+.store-manage-content form p span {
+    width: 81px;
+    text-align: right;
+}
+.store-manage-content form p label {
+    margin-right: 20px;
+}
+.change-value {
+    width: 300px;
+    height: 30px;
+    text-indent: 9px;
+    border: 1px solid #cccccc;
+}
+.btn-link {
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+}
+.btn-link + .btn-link {
+    margin-left: 20px;
+}
+.btn-link.success {
+    color: #fff;
+    background: #0a70b1;
+    width: 140px;
+}
+.btn-link.cancel {
+    color: #666666;
+    background: #dddddd;
+    width: 100px;
+}
+.mar-top90{
+    margin-top: 90px;
+}
+.mr-20{margin-right: 20px !important;}
+.os-orange {
+    background-color: #ff9000;
+}
+
+
+/* 商品清算弹出框 */
+.liquidation label{
+	width: 117px;
+	float: left;
+	padding-top: 4px;
+	text-align: right;
+}
+.liquidation>div{
+	line-height: 28px;
+	margin: 25px 0;
+}
+.liquidation input[type="text"]{
+	width: 200px;
+	padding: 6px;
+	margin-left: 8px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #ddd;
+}
+.nom{
+	cursor: no-drop;
+	background-color: #ededed;
+}
+.delete-ok {
+	background: #0a70b1;
+	color: #fff;
+	margin-left: 66px;
+}

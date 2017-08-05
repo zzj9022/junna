@@ -1,0 +1,234 @@
+/* apply settlement style ------------------------*/
+.apply-settlement {
+	width: 960px;
+}
+.apply-settlement h3.member-title {
+    border-bottom: 1px solid #ccc;
+}
+.numer-data .apply-settlement .ndata-main .updata-forms p select {
+	text-indent: 0;
+	padding: 7px;
+	text-align: left;
+}
+.offset-t20 {
+	margin-top: 20px;
+}
+.offset-t30 {
+	margin-top: 30px;
+}
+.offset-t50 {
+	margin-top: 50px;
+}
+.offset-l220 {
+	margin-left: 220px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font16{
+	font-size: 16px;
+}
+a.blue-dark {
+	color: #0a70b1;
+}
+a.blue-dark:hover {
+	color: #0d8ee0;
+}
+.info-wrap {
+	background-color: #e4f1fb;
+	border: 1px solid #90c5ef;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+.info-wrap img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	position: relative;
+	top: -1px;
+}
+.info-wrap span {
+	color: #0078d8;
+}
+.status-form p label {
+	font-size: 14px;
+}
+.btn {
+	color: #fff;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1;
+	border-radius: 4px;
+	behavior: url(../js/public/PIE.htc);
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	-ms-touch-action: manipulation;
+	  touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	 -moz-user-select: none;
+	  -ms-user-select: none;
+	      user-select: none;
+}
+.btn-blue {
+	padding: 12px 35px;
+    font-size: 16px;
+    background-color: #0078d8;
+}
+.btn-blue-lg {
+	padding: 20px 30px;
+    font-size: 20px;
+    background-color: #0970B5;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue-lg:hover,
+.btn-blue-lg:focus,
+.btn-blue-lg:active {
+	background-color: #0068bc;
+	color: #fff;
+}
+.apply-settlement .btn-blue {
+	padding: 12px 50px;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+
+/* submit success style ------------------------*/
+.submit-success {
+	width: 340px;
+	margin: 120px auto;
+}
+.submit-success > .success-title {
+	font-size: 24px;
+	color: #9fc400;
+	background: url(../../img/public/success-icon.png) no-repeat left;
+	text-indent: 60px;
+	height: 70px;
+	font-weight: normal;
+	line-height: 50px;
+}
+.success-content {
+	margin-left: 63px;
+    margin-top: -25px;
+}
+.submit-success p {
+	color: #999;
+	line-height: 180%;
+}
+
+/* unautherized style ------------------------*/
+.radio-content {
+	width: 450px !important;
+	float: left;
+    height: 35px;
+    line-height: 35px;
+}
+.radio-content label {
+	margin-right: 35px;
+	font-size: 14px;
+}
+.radio-content input[type="radio"] {
+	display: inline-block !important;
+	width: auto !important;
+	vertical-align: middle;
+	margin-right: 5px;
+	border: none !important;
+}
+.numer-data .ndata-main .updata-forms p .add-image input {
+	filter: alpha(opacity=0);
+}
+
+/* autherized style ------------------------*/
+.disabled select, .numer-data .ndata-main form p input.disabled {
+	background-color: #f6f6f6;
+	cursor: not-allowed;
+}
+
+/* settlement style ------------------------*/
+.applyShopPanel{
+	height: 845px;
+	width: 958px;
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	background: url("../../img/businessCenter/ApplyShop.png") no-repeat;
+}
+.apply-shop-head{
+	font-family: "宋体", "SimSun";
+	letter-spacing: 2px;
+    font-size: 36px;
+    font-weight: bold;
+	color: #0078D8;
+	text-align: center;
+	margin: 100px 0 80px 0;
+}
+.apply-shop-head span{
+	padding: 3px;
+	color: #fff;
+	background-color: #F59000;
+}
+.offset-l194{
+	margin-left: 194px;
+}
+.icon{
+	height: 100px;
+	width: 100px;
+	display: block;
+	border-radius: 60px;
+	float: left;
+	margin: 0 9px;
+}
+.Arrowicon{
+	background: url("../../img/businessCenter/applyShopicon.png") no-repeat;
+	background-position: -302px 0;
+}
+.dataicon{
+	background: url("../../img/businessCenter/applyShopicon.png") no-repeat;
+	background-position: -100px 0;
+}
+.serviceicon{
+	background: url("../../img/businessCenter/applyShopicon.png") no-repeat;
+}
+.shopicon{
+	background: url("../../img/businessCenter/applyShopicon.png") no-repeat;
+	background-position: -201px 0;
+}
+.iconSpan{
+	float: left;
+	width: 100px;
+	display: block;
+	text-align: center;
+	margin: 15px 9px 30px 9px;
+}
+.apply-shop-li{
+	width: 250px;
+	margin: 0 auto;
+}
+.apply-shop-li li{
+	font-size: 14px;
+	color: #999999;
+	margin: 14px 0;
+}
+.apply-shop-li img{
+	margin: -1px 3px -1px 0;
+}
+.circle-icon{
+	background: url("../../img/businessCenter/circle.png") no-repeat;
+}
+.apply-shop-li .btn-blue{
+	margin-top: 66px;
+	width: 150px;
+    height: 22px;
+	line-height: 22px;
+}
+
+

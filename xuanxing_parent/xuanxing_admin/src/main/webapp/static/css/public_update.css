@@ -1,0 +1,54 @@
+
+.contentList .box-title>p{
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+.contentList .box-title>p label{
+	font-weight:300;
+}
+.contentList .box-title>p label+input{
+		margin-right:20px;
+}
+.contentList .box-title>p select{
+	height:24px;
+	margin-left:10px;
+	width:80px;
+}
+.contentList .box-title>p .btn-primary{
+	width:100px;
+	height:25px;
+	line-height:15px;
+	margin-left:50px;
+	position:relative;
+	bottom:1px;
+}
+.contentList .box-title .actions .add-button{
+	width:80px;
+	height:25px;
+	line-height:18px;
+	background:#ae0055;
+	position:relative;
+	bottom:2px;
+	color:#fff;
+}
+
+
+.content-detail .form-actions{
+	width:100%;
+	margin-left:88px;
+}
+
+.product-property .add-input{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #ddd;
+	color:#ddd;
+	text-align: center;
+	font-size:16px;
+}
+.product-property .add-input:hover{
+	background:#ae0055;
+	color:#fff;
+}

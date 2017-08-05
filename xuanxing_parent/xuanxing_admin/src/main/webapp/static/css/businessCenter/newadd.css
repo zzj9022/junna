@@ -1,0 +1,933 @@
+/*��߲˵�*/
+.shop-menu{
+    width: 188px;
+/*     height: 686px; */
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.home-code{
+    background:url("../../img/public/home-code.png" ) center no-repeat;
+    width:18px ;
+    height: 18px;
+    display: block;
+
+}
+.bottom-code{
+    background: url("../../img/public/bottom-dcode.png") center  no-repeat;
+    width:18px ;
+    height: 18px;
+    display: block;
+
+}
+.newadd{
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.newadd .shop-menu h4{
+    height: 39px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #999;
+
+}
+.newadd .shop-menu h4 span{
+    margin:10px 5px 0px 20px ;
+
+}
+.newadd .shop-menu dl{
+    padding-bottom: 15px;
+}
+.newadd .shop-menu dl dt{
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+    background: #f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+
+}
+.newadd .shop-menu dl dt span{
+    margin:10px 5px 0px 20px ;
+}
+.newadd .shop-menu dl dd{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #666;
+    text-indent: 20px;
+}
+.newadd .shop-menu dl dd:hover{
+    color: #fff;
+    background: #0a70b1;
+}
+/*�ұ��б�*/
+.newadd .newadd-main{
+    width: 960px;
+}
+.newadd  .newadd-main h3 {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.newadd  .newadd-main h3 span{
+    line-height: 39px;
+    font-size: 16px;
+    color: #0078d8;
+    font-weight: 400;
+    border-bottom: 2px solid  #0078d8;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.newadd-main>div{
+    width: 765px;
+    margin-top: 30px;
+}
+.newadd-main form>div{
+    width: 765px;
+    margin-top: 30px;
+}
+
+.newadd-main .show-list{
+    width: 800px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.newadd-main .show-list li{
+    float: left;
+    width: 200px;
+    height: 5px;
+    background: #ccc;
+    text-align: center;
+    position: relative;
+}
+.newadd-main .show-list li dl dt{
+    margin: 0 auto;
+    height: 22px;
+    width: 22px;
+    background: url("../../img/public/radio-code.png") 0px  0px no-repeat;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    left: 90px;
+}
+.newadd-main .show-list li dl dd{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 15px;
+}
+.newadd-main .show-list  .complete {
+    background: #b2d6f3;
+}
+.newadd-main .show-list  .complete dl dt {
+    background: url("../../img/public/complete_radio.jpg")  no-repeat;
+}
+.newadd-main .show-list  .complete dl dd{
+    color: #b2d6f3;
+}
+.newadd-main .show-list  .select {
+    background: #0078d8;
+}
+.newadd-main .show-list  .select dl dt {
+    background: url("../../img/public/radio-code.png") -59px  0px no-repeat;
+}
+.newadd-main .show-list  .select dl dd{
+    color: #0078d8;
+}
+/*��Ʒ����Ϣ*/
+.newadd-main .tittle{
+    width: 120px;
+    background:#0078d8 ;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20px;
+    float: left;
+}
+.newadd-main .line{
+    width: 610px;
+    height:1px;
+    border-bottom:1px dashed #ccc;
+    float: left;
+    position: relative;
+    top: 15px;
+}
+.newadd-main .togglebutton{
+    color: #0a70b1;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.newadd-main .contentP{
+    width: 800px;
+   margin-top: 14px;
+    padding-left: 100px;
+    height: 36px;
+    line-height: 36px;
+}
+.newadd-main .contentP .input_file{
+    position: absolute;
+    top: 0;
+    left: 230px;
+    width: 100px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+.newadd .newadd-main .specialH{
+    height: 82px;
+}
+.newadd-main .contentP .attribute{
+    float: left;
+    width: 140px;
+}
+.newadd-main .contentP .shortsel{
+    width: 180px;
+    height: 40px;
+    margin-right: 10px;
+}
+.newadd-main .contentP .shortsin{
+    width: 100px;
+}
+.newadd-main .error{
+    border: 1px solid #ff9000;
+    color:  #ff9000;
+}
+.mange-updata p .error {
+    border: 1px solid #ff9000;
+    color:  #ff9000;
+}
+.newadd-main .readonly{
+    background: #f6f6f6;
+    border: 1px solid #cccccc;
+    color: #A9A9A9;
+}
+.newadd-main .change{
+    margin-left: 10px;
+    color: #0a70b1;
+    cursor: pointer;
+}
+.newadd-main .contentP textarea{
+    text-indent: 10px;
+    width: 450px;
+    float: left;
+    height: 80px;
+}
+.newadd-main .contentP .prompt{
+    color: #ff9000;
+}
+.newadd-main .contentP i{
+    color: #ff9000;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+.newadd-main .contentP label{
+    font-size: 14px;
+}
+.newadd-main .contentP .tit{
+    float: left;
+   text-align: right;
+    margin-right: 10px;
+    width: 125px;
+}
+.newadd-main .contentP select{
+    width: 454px;
+    float: left;
+    height: 36px;
+    text-indent: 10px;
+}
+.newadd-main .contentP .shortinput{
+    width: 150px!important;
+    float: none!important;
+    margin-right: 5px;
+}
+.newadd-main .contentP .shortinput+span{
+    margin: 0 45px  0 30px;
+}
+.newadd-main .contentP input[type=text]{
+    text-indent: 10px;
+    width: 450px;
+    float: left;
+    height: 36px;
+}
+.newadd-main .contentP input[type=radio]{
+   margin-right: 10px;
+}
+.newadd-main .contentP .radio{
+   float: left;
+    width: 75px;
+}
+.newadd-main .contentP .condition{
+    margin-left: 130px;
+    float: left;
+}
+.newadd-main .contentP .condition input{
+    margin-right: 5px;
+}
+.newadd-main .contentP .condition label{
+    margin-right: 65px;
+}
+.newadd-main .contentP .prompt{
+    float: left;
+    margin-left: 20px;
+    width: 180px;
+}
+.newadd-main .contentP .prompt .prompt-code{
+    margin-top: 8px;
+}
+.newadd-main .contentadd{
+    clear: both;
+    margin: 0 auto 20px auto;
+}
+/*���̷���*/
+.newadd-main .store_cotent{
+   width: 650px;
+    margin: 20px 0 20px 100px;
+    overflow: hidden;
+}
+.newadd-main .classify{
+    overflow: hidden;
+}
+.newadd-main .classify_1{
+    float: left;
+    width: 125px;
+    text-align: right;
+}
+.newadd-main .classify_1 label{
+    font-size: 14px;
+}
+.newadd-main .classify_2{
+    width: 500px;
+    float: left;
+    margin-left: 20px;
+}
+.newadd-main .classify_2 p{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.newadd-main .classify_2 p label{
+    float: left;
+    width: 80px;
+}
+.newadd-main .classify_2 p input[type=checkbox]{
+    margin-right: 5px;
+    float: left;
+    position: relative;
+    top: 3px;
+}
+.newadd-main .classify_1 input[type=checkbox]{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+/*��ƷͼƬ����*/
+.newadd-main .picture{
+    margin:20px 0 20px 30px;
+    width: 670px;
+    overflow: hidden;
+}
+.newadd-main .picture .img_content{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+}
+.newadd-main .picture .pic_tit,.newadd-main .picture .pic_in {
+    margin-left: 10px;
+}
+.newadd-main .picture .pic_in input{
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+.newadd-main .picture li{
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+.newadd-main .picture .filelist .custom{
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    z-index: 201;
+    color: white;
+}
+.newadd-main .picture .filelist .custom span{
+    cursor: pointer;
+}
+.newadd-main .picture .filelist .custom span:first-child{
+    margin-right: 5px;
+}
+/*��Ʒ��ϸ����*/
+.newadd-main .describe{
+    width: 765px;
+    overflow: hidden;
+    margin:20px 0 20px 0;
+}
+/*�ϼ�ʱ������*/
+.newadd-main .contentTime{
+    width: 685px;
+    margin-top: 20px;
+    padding-left: 120px;
+    height: 35px;
+    line-height: 35px;
+}
+.newadd-main .contentTime input[type=date],.newadd-main .contentTime input[type=text]{
+    height: 35px;
+    width: 200px;
+    margin-left: 10px;
+    text-indent: 10px;
+}
+.newadd-main .contentTime input[type=radio]{
+    margin-right: 10px;
+}
+.newadd-main .contentTime .radio2{
+    margin-right: 35px;
+}
+/*�?������ť*/
+.newadd-main .form_operation{
+    overflow: hidden;
+    margin-left: 230px;
+   float: left;
+}
+.newadd-main .form_operation .button,.newadd-main .form_operation .button1{
+    height: 40px;
+    line-height: 40px;
+    background: #0078d8;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.newadd-main .form_operation .button{
+    width: 140px;
+    cursor: pointer;
+}
+.newadd-main .form_operation .button1{
+    width: 260px;
+    cursor: pointer;
+}
+.newadd-main .form_operation .button2{
+    color:#0078d8 ;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.newadd-main .form_operation p{
+    float: left;
+}
+/*���ڿؼ�*/
+.newadd-main .contentP .dates{
+    border: 1px solid #A9A9A9;
+    background: url(../../img/businessCenter/date.png) 420px no-repeat ;
+    background-size:20px;
+}
+.newadd-main .contentP .dropdown-menu{
+}
+.newadd-main .contentTime .dates{
+    border: 1px solid #A9A9A9;
+    background: url(../../img/businessCenter/date.png) 170px no-repeat ;
+    background-size:20px;
+}
+/*������ƷSKU��Ϣ*/
+.contentadd>div table{
+    width: 700px;
+    border-collapse: collapse;
+    margin: 30px 0 10px 45px;
+    border: 1px solid #ccc
+}
+.contentadd>div table tr{
+    width: 700px;
+}
+.contentadd>div table th{
+    background: #f7f7f7;
+    /*width: 239px;*/
+    height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #474747;
+    font-size: 14px;
+}
+.contentadd>div table td{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+.contentadd>div table td img{
+    width: 30px;
+}
+.contentadd>div table td span{
+    color: #0078d8;
+    margin:0 10px;
+    cursor: pointer;
+}
+.contentadd>div table tr:nth-child(odd){
+    background: #f7f7f7;
+}
+.contentadd .add-table{
+    background: #0078d8;
+    color:white ;
+    font-size: 14px;
+    margin: 10px 20px 10px 0;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button3{
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    background: #0078d8;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    width: 320px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 40px auto 50px auto;
+}
+/*ѡ����Ʒ����*/
+.newadd-main .content1{
+    margin: 30px auto;
+    width: 900px;
+    overflow: hidden;
+}
+.newadd-main .content1 .fontgray{
+    float: left;
+    font-size: 14px;
+    color: #7B7B7B;
+}
+.newadd-main .content1 .floatr{
+    float: right;
+}
+.newadd-main .content1 .recentUse span{
+    color: #0078d8;
+}
+.newadd-main .content1 .content_box{
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.newadd-main .content1 .content_box>div{
+    float: left;
+    border: 1px solid #ccc;
+    height: 320px;
+    margin: 10px auto;
+}
+.newadd-main .content1 .content_box .left_box{
+    width: 240px;
+    border-right:none ;
+}
+.newadd-main .content1 .content_box .mid_box{
+    width: 310px;
+    border-right:none ;
+}
+.newadd-main .content1 .content_box .right_box{
+    width: 345px;
+}
+.newadd-main .content1 .content_box>div ul{
+    width: auto;
+    padding: 10px;
+}
+.newadd-main .content1 .content_box>div ul li{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #7B7B7B;
+    text-indent:10px;
+    cursor: pointer;
+}
+.newadd-main .content1 .content_box>div ul li:hover{
+    background: #DEEAFF;
+    color: #0078d8;
+}
+.newadd-main .content1 .content_box>div ul .select{
+    background: #DEEAFF;
+    color: #0078d8;
+}
+.newadd-main .content1 .current{
+    margin: 0 0 20px 0;
+    width: 898px;
+    clear: both;
+    background: #FFFBF2;
+    border: 1px solid #FFEDD3;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #7B7B7B;
+}
+.newadd-main .content1 .current span{
+    font-size: 12px;
+    color: #FF872D;
+    cursor: pointer;
+}
+.newadd-main .content1 .submit{
+    width: 898px;
+    clear: both;
+    overflow: hidden;
+}
+.newadd-main .content1 .submit p{
+    float: right;
+    margin-right: 25px;
+    height: 40px;
+    line-height: 40px;
+    color: #C5C5C5;
+    background: url("../../img/businessCenter/question.jpg") 6px 14px no-repeat ;
+    background-size: 12px;
+    text-indent: 20px;
+}
+.newadd-main .content1 .submit p a{
+    color: #0078d8;
+    cursor: pointer;
+}
+.newadd-main .content1 .submit div{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    background: #0078d8;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    width: 320px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*������*/
+.errortip{
+    width: 540px;
+    height: 35px;
+    line-height: 35px;
+    background: #FFFBF2;
+    border: 1px solid #FFEDD3;
+    margin: 10px auto;
+    text-align: center;
+}
+.errortip span{
+    background: url(../../img/public/icon.jpg) no-repeat;
+    background-size: 15px;
+    padding-left: 20px;
+    color: #ff9000;
+}
+.mange-updata p{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.mange-updata p span{
+    overflow: hidden;
+   float: left;
+    width: 100px;
+    text-align: right;
+}
+.mange-updata p i{
+    color: #ff9000;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.mange-updata p label{
+    height: 30px;
+    line-height: 30px;
+    font-style: normal;
+    text-align: right;
+    padding-right: 10px;
+}
+.mange-updata p .shortinput{
+    width: 160px;
+    height: 30px;
+    float: left;
+    border: 1px solid #ddd;
+    color: #666666;
+    text-indent: 10px;
+}
+.filebutton{
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    background:#DDDDDD ;
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 14px;
+}
+.filebuttons{
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    background:#DDDDDD ;
+    color: #666666;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.file_input{
+    float:left;
+    width:190px;
+    margin-left: 10px;
+    height: 30px;
+    border: 1px solid #ddd;
+    color: #666666;
+    text-indent: 5px;
+}
+.mange-updata p  input[type=file]{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 100px;
+    height: 30px;
+    opacity: 0;
+}
+.mange-updata p input{
+    width: 300px;
+    height: 28px;
+    border: 1px solid #ddd;
+    color: #666666;
+    text-indent: 10px;
+}
+.mange-updata .classlevel input{
+    width: 14px !important;
+    height: 14px !important;
+    position: relative;
+    top:8px;
+}
+.mange-updata .classlevel label{
+    width: 120px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 7px;
+    color: #333;
+}
+.mange-updata p select{
+    text-indent: 10px;
+    width:130px ;
+    border: 1px solid #ddd;
+    color: #666666;
+    margin-left: 10px;
+    height: 32px;
+    line-height: 32px;
+}
+.mange-updata p .longselect{
+    width:300px ;
+    margin-left: 0;
+    /*border: 1px solid #ddd;*/
+    /*color: #666666;*/
+    /*margin-left: 10px;*/
+    /*height: 32px;*/
+    /*line-height: 32px;*/
+}
+.mange-updata p textarea{
+    border: 1px solid #ddd;
+    color: #666666;
+    width:300px ;
+    height: 90px;
+    text-indent: 5px;
+}
+.mange-updata .mange-ok{
+    width: 140px;
+    height: 40px;
+    background: #0a70b1;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.mange-updata .mange-ok+button{
+    margin-top: 10px;
+    background: #ddd;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: #666;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.delete-ok,.delete-ok+button{
+    margin-top: 30px;
+    background: #ddd;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: #666;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.delete-ok{
+    background: #0a70b1;
+    color: #fff;
+    margin-left: 145px;
+}
+.mange-updata h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+   text-align: center;
+    margin-top: 20px;
+}
+/*�����ɹ�*/
+.newadd-main .success_content{
+    width: 600px;
+    height: 500px;
+    margin: 60px auto 0 auto;
+    overflow: hidden;
+}
+.newadd-main .success_content .top_content{
+    width: 385px;
+    height: 50px;
+    margin: 0 auto;
+    background: url("../../img/businessCenter/success.jpg") no-repeat;
+}
+.newadd-main .success_content .top_content p{
+    margin-left: 60px;
+}
+.newadd-main .success_content .top_content p:first-child{
+    font-size:24px;
+    color: #9fc400;
+}
+.newadd-main .success_content .top_content p:last-child{
+    font-size:12px;
+    color: #999999;
+    margin-top: 15px;
+}
+.newadd-main .success_content .mid_content{
+    width: 385px;
+    height: 150px;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+}
+.newadd-main .success_content .mid_content p{
+    margin-left: 60px;
+    font-size: 14px;
+    color:#666666;
+}
+.newadd-main .success_content .mid_content div{
+    width: 120px;
+    height: 120px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.newadd-main .success_content .mid_content div img{
+    width: 120px;
+    height: 120px;
+}
+.newadd-main .success_content .bottom_content{
+    width: 385px;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+}
+.newadd-main .success_content .bottom_content p{
+    margin-left: 60px;
+    font-size: 14px;
+    float: left;
+    color:#666666;
+}
+.newadd-main .success_content .bottom_content div{
+    float: left;
+}
+.newadd-main .success_content .bottom_content div a{
+    float: left;
+    color: #0a70b1;
+    text-decoration:underline;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.Symbol{
+    width: 650px;
+    margin: 20px 0 -15px 160px;
+    overflow: hidden;
+}
+.Symbol .Symbol_1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.Symbol .Symbol_1 label{
+    font-size: 14px;
+}
+.Symbol .Symbol_2{
+    width: 450px;
+    float: left;
+    margin-left: 10px;
+}
+.Symbol .Symbol_2 p{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.Symbol .Symbol_2 p img{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+.Symbol .Symbol_2 p input{
+    position: relative;
+    bottom: 13px;
+    margin-right: 5px;
+}
+/*确认订单弹出框样式*/
+.Receivables .msg{
+	width: 53px;
+	position: relative;
+	top: 9px;
+	background: #fff;
+}
+.Receivables .p-line{
+	border-bottom: 1px solid #9d9d9d;
+}
+.Receivables .lineheight35{
+	line-height: 35px;
+}
+.Receivables .lineheight35 label{
+	width:40%;
+	text-align: right;
+	display: inline-block;
+}
+.Receivables .tips{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	padding-left: 60px;
+	line-height: 30px;
+}	
+.font-r{
+	color: #ff0000;
+}
+.Receivables .agree{
+	width:49%;
+	text-align: center;    
+	display: inline-block;
+	margin: 12px 0;
+}

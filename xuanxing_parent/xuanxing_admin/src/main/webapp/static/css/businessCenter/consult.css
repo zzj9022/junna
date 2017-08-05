@@ -1,0 +1,196 @@
+/* consult style ------------------------*/
+.consult{
+	margin-top: 10px;
+}
+.right-side {
+    width: 960px;
+}
+.nav-title {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-title span {
+    line-height: 39px;
+    font-size: 16px;
+    color: #0078d8;
+    font-weight: 400;
+    border-bottom: 2px solid #0078d8;
+    display: block;
+    text-align: center;
+}
+.have-nothing{
+	text-align: center;
+}
+.have-nothing i{
+	display: inline-block;
+	height: 64px;
+	width: 64px;
+	background: url('../../img/businessCenter/consultNone.png');
+	margin-top: 60px;
+}
+.have-nothing p{
+	margin-top: 25px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #999999;
+}
+
+/* table style ------------------------*/
+.table-fixed {
+    table-layout: fixed;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table-bordered {
+    border: 1px solid #ccc;
+}
+.table th {
+	background-color: #f7f7f7;
+	font-weight: normal;
+}
+.table td {
+	height: 30px;
+	padding: 5px 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.table td:not(:first-child){
+	text-align: center;
+}
+
+.table th {
+	height: 30px;
+	padding: 5px 8px;
+	border-bottom: 1px solid #ccc;
+}
+.td-fontblue a{
+	color: #0a70b2;
+}
+.td-fontgray span{
+	color: #999999;
+}
+.consult-bgc2{
+	background-color: #f7f7f7;
+}
+.consult-bgc{
+	background-color: #fff;
+}
+/*咨询弹出框*/
+.consult-content label{
+    float: left;
+    text-align: right;
+    color: #333;
+	line-height: 40px;
+}
+.consult-content p{
+    line-height: 40px;
+}
+.consult-content textarea{
+    margin-top: 13px;
+    width: 294px;
+    height: 130px;
+    padding: 6px;
+    border: 1px solid #ddd;
+}
+.consult-content .label-radio{
+	padding-left: 8px;
+    width: 90px;
+    text-align: left !important;
+	
+}
+.consult-content .label-radio input{
+	margin-right: 5px;
+    vertical-align: middle\0;
+}
+/* btn style ------------------------*/
+.btn {
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 4px;
+    behavior: url(../js/public/PIE.htc);
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    -ms-touch-action: manipulation;
+      touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.btn-blue {
+    padding: 12px 28px;
+    font-size: 14px;
+    background-color: #0970B5;
+}
+.btn-blue-lg {
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: #0a70b1;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue-lg:hover,
+.btn-blue-lg:focus,
+.btn-blue-lg:active {
+    background-color: #0a6caa;
+    color: #fff;
+}
+.btn-cancel {
+    color: #666666;
+    padding: 12px 35px;
+    font-size: 14px;
+    background-color: #dddddd;
+}
+.btn-cancel:hover,
+.btn-cancel:focus,
+.btn-cancel:active{
+    color: #666666;
+    background-color: #d0d0d0;
+}
+
+/* common style ------------------------*/
+.offset-t20{
+	margin-top: 20px;
+}
+.offset-t10{
+	margin-top: 10px;
+}
+.offset-t70{
+	margin-top: 70px;
+}
+.offset-l20{
+	margin-left: 20px;
+}
+.offset-l190{
+	margin-left: 190px;
+}
+.fontblue{
+	color: #0a70b2;
+}
+.fontyellow{
+	color: #ff9000 !important;
+}
+.fontgray{
+	color: #999999;
+}
+.width110{
+	width: 110px;
+}
+.width190{
+	width: 190px !important;
+}

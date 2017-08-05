@@ -1,0 +1,108 @@
+.fr{float:right;}
+.filebuttons{
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    background:#DDDDDD ;
+    color: #666666;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.select-file-div{
+	position: relative;
+	width:74px;
+	height:30px;
+	overflow:hidden;
+	cursor: pointer;
+	float: left;
+}
+.select-file-div input{
+	    opacity: 0;
+	    font-size:20px;
+}
+.select-file-div:hover .select-file{
+	background: #c40060;
+}
+.select-file{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:74px;
+	height:30px;
+	text-align: center;
+	lint-height:30px;
+}
+.select-file-name{
+	    width: 162px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+		float: left;
+	margin-left:10px;
+	height:30px;
+	line-height:30px;
+	color: #0a70b1;
+}
+
+.file_input{
+    float:left;
+    width:190px;
+    margin-left: 10px;
+    height: 30px;
+    border: 1px solid #ddd;
+    color: #666666;
+    text-indent: 5px;
+}
+
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #00b7ee;
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.webuploader-pick-hover {
+	background: #00a2d4;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+
+.img_content{
+	position: relative;
+	width:100px;
+	height:100px;
+	margin: -20px 0 0 228px;
+}
+.img_content .del{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    z-index: 201;
+    color: white;
+	text-align:center;
+}
+.img_content .del span{
+	cursor:pointer
+}
