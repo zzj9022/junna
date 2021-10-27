@@ -94,7 +94,7 @@
 		</resources>
 		
 		<plugins>
-			<!-- 自动生成 -->
+			<!-- 自动生成  -->
 			<plugin>
 				<groupId>org.mybatis.generator</groupId>
 				<artifactId>mybatis-generator-maven-plugin</artifactId>
